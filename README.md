@@ -2,6 +2,10 @@
 
 Project ini digunakan untuk praktek mata kuliah PBO.
 
+Nama: Friska Andayani Wiguna
+
+NPM: 2015804360
+
 ## Instalasi
 
 - import file `db.sql` ke mariadb,
