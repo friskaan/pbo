@@ -1,11 +1,11 @@
 <html>
     <head>
-        <title>Daftar Tugas Harian</title>
+        <title>Daftar Tugas Belanjaan</title>
         <link href="<?= base_url('/style.css') ?>" rel="stylesheet"/>
     </head>
     <body>
         <header class="header wrapper">
-            <h1 class="title">Daftar Tugas <?= date('d M Y') ?></h1>
+            <h1 class="title">Daftar Belanjaan <?= date('d M Y') ?></h1>
         </header>
         <main class="main wrapper">
             <?php if(!empty($tugas)): ?>
@@ -32,7 +32,7 @@
                 </ul>
             <?php else: ?>
                 <p>
-                    Tidak ada tugas.
+                    Tidak ada belanjaan.
                 </p>
             <?php endif; ?>
             <?php if(flash_has('pesan')): ?>
@@ -42,7 +42,7 @@
             <?php endif; ?>
             <div class="create-form">
                 <form action="<?= base_url('/tugas') ?>" method="POST">
-                    <input name="nama" required autocomplete="off" type="text" value="" placeholder="Nama tugas" />
+                    <input name="nama" required autocomplete="off" type="text" value="" placeholder="Nama belanjaan" />
                     <button type="submit">Tambah</button>
                 </form>
             </div>
