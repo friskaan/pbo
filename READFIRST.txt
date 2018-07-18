@@ -1,0 +1,12 @@
+Nama Friska Andayani Wiguna
+NIM : 2015804360
+
+Nama database tugasku
+Nama table tugas
+
+Buka dengan http://localhost/pbo/login.php
+
+username: fris
+password: 1234
+
+untuk upload belum bisa digunakan hanya tampilannya saja

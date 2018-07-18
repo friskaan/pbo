@@ -26,6 +26,63 @@ button {
     padding: .5rem 1rem;
 }
 
+.nama {
+ float:right;
+ }
+
+.menu-wrap {
+    background-color:#53bd84; 
+    height:50px; 
+    line-height:50px; 
+    position:relative;
+    margin:auto;
+    z-index: 3;
+}
+ 
+.menu-wrap ul {
+    list-style:none;
+}
+ 
+.menu-wrap ul li a {
+    float:left; 
+    width:150px; 
+    display:block; 
+    text-align:center;
+    font-size: 20px; 
+    color:#FFF; 
+    text-decoration:none; 
+    text-transform:uppercase;
+}
+ 
+.menu-wrap ul li a:hover {
+    background-color:#666; 
+    display:block;
+}
+ 
+.menu-wrap ul li:hover ul {
+    display:block;
+}
+ 
+.menu-wrap ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    background-color:#53bd84;
+    top:50px; 
+    width:190px;
+}
+ 
+.menu-wrap ul ul li a {
+    display:block; 
+    padding-left:30px; 
+    text-align:left; 
+    width:160px;
+}
+ 
+.menu-wrap ul ul li a:hover {
+    color:#fff;
+}
+
 .wrapper {
     max-width: 70rem;
     margin: 0 auto;
@@ -48,10 +105,11 @@ button {
 }
 
 .header.wrapper {
-    background: #ef3851;
+    background: #53bd84;
     color: #fff;
     box-shadow: 0 2px 14px rgba(0,0,0,.43);
     position: relative;
+    margin-top:50px;
     z-index: 2;
 }
 
